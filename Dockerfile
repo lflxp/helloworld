@@ -1,4 +1,4 @@
 FROM alpine 
-ADD gin-template /gin-template
+ADD helloworld /helloworld
 EXPOSE 8080
-ENTRYPOINT ["/gin-template"]
+ENTRYPOINT ["/helloworld"]
